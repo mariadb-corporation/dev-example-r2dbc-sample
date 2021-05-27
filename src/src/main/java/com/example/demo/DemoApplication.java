@@ -25,11 +25,19 @@ public class DemoApplication {
 		ConfigurableApplicationContext context = SpringApplication.run(DemoApplication.class, args);
 		DemoApplication application = context.getBean(DemoApplication.class);
 
-		//Task task = new Task("Task 5");
-		//application.saveTask(task).subscribe();
+		// Add a new task to the tasks table
+		/*
+		Task task = new Task("Task 5");
+		application.saveTask(task).subscribe();
+		*/
 
-		//application.getTasks().subscribe(result -> System.out.println(result));
+		// Print out all tasks 
+		/*
+		application.getTasks().subscribe(result -> System.out.println(result));
+		*/
 
+		// Use a custom Subscriber to demonstration how backpressure can be used
+		/*
 		application.getTasks()	
 				   .subscribe(new Subscriber<Task>() {
 						private Subscription s;
@@ -70,7 +78,7 @@ public class DemoApplication {
 							System.out.println("onComplete");
 						}
 					});
-
+					*/
 
 		// Prevent the application from exiting
 		Thread.currentThread().join();
