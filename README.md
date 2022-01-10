@@ -1,5 +1,9 @@
 # R2DBC Sample Application
 
+⚠️ **[UNMAINTAINED]** This repository has been moved and is currently maintained [here](https://github.com/mariadb-developers/mariadb-connector-r2dbc-samples). ⚠️
+
+<br />
+
 This repository contains a simple ([Apache Maven](https://maven.apache.org/)-based) Java application. The application contains [Spring Framework](https://spring.io/) dependencies, including [Spring Boot](https://spring.io/projects/spring-boot) and [Spring Data R2DBC](https://spring.io/projects/spring-data-r2dbc). 
 
 The purpose of this application is to demonstrate capabilities of [MariaDB Connector/R2DBC](https://mariadb.com/docs/clients/connector-r2dbc/) and [Spring Data R2DBC](https://spring.io/projects/spring-data-r2dbc).
